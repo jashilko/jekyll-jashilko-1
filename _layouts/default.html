@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="row">
+      <div class="large-12 large-centered columns">
+
+        <header class="masthead">
+          <img src="{{ site.baseurl }}/public/profile2.jpg" alt="Shilyaev">
+        </header>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="large-6 large-offset-3 columns">
+
+      <div class="content-section">
+
+        <p>
+Hello. My name is Shilyaev Konstantin. Most of my life I worked with the finances and programming and not only worked, but also loved them. My goal now is to find a job in Europe!
+        </p>
+
+      </div>
+<!--
+      <main>
+        <h2>Latest Work</h2>
+        {% for post in site.posts %}
+          <div class="project-post">
+            <h3><a href="{{ post.git }}">{{ post.title }}</a></h3>
+            {{ post.content }}
+          </div>
+        {% endfor %}
+      </main>
+-->
+      <footer>
+        <h2>Contact </h2>
+If you are interested in collaboration, looking for a programmer for you engineering team, or want to say me anything, write me an email jashilko@yandex.ru. 
+        <p>
+        Send me an <a href="mailto:jami0821@gmail.com?Subject=Hello,%20Jami!">email</a> or ping me on <a href="https://twitter.com/JamiGibbs">Twitter</a>. I’m also on <a href="https://github.com/jamigibbs">Github</a>, <a href="https://dribbble.com/JamiGibbs">Dribbble</a>, and <a href="https://www.linkedin.com/in/jami-gibbs-731985112
+">Linkedin</a> if you’re into that sort of thing.
+        </p>
+
+        <p class="copyright">
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved. Design by <a href="https://github.com/jamigibbs">Jami Gibbs</a>
+        </p>
+      </footer>
+
+    </div>
+<!--
+    <div class="large-2 large-offset-1 columns social">
+      <ul>
+        <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://blog.jamigibbs.com/"><i class="fa fa-medium"></i></a></li>
+        <li><a href="https://dribbble.com/{{ site.dribbble }}"><i class="fa fa-dribbble"></i></a></li>
+      </ul>
+    </div>
+-->
+  </div>
+
+    {% if site.google_analytics %}
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', '{{ site.google_analytics }}', 'auto');
+       ga('send', 'pageview');
+     </script>
+    {% endif %}
+
+  </body>
+</html>
