@@ -1,0 +1,18 @@
+{
+	"phones": [{
+			"name": "Убер",
+			"link": "neadkujsue",
+			"desrciption": "Скидка 30 рублей"
+		}, {
+			"name": "Партия еды",
+			"link": "https://ref.partiyaedi.ru/HLEJuj",
+			"desrciption": "500 рублей на заказ"
+		},
+		{
+			"name": "Белка",
+			"link": "TXRL7689",
+			"desrciption": "Каршеринг. 300 рублей на первую поездку"
+		}
+	]
+
+}
