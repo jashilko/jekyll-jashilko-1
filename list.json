@@ -12,7 +12,17 @@
 			"name": "Белка",
 			"link": "TXRL7689",
 			"desrciption": "Каршеринг. 300 рублей на первую поездку"
-		}
+		}, 
+	{
+		"name": "Тинкофф-банк",
+		"link": "www.tinkoff.ru/sl/2tmDWvKllRh",
+		"desrciption": "Банк с лучшей картой"
+	}, 
+	{
+		"name": "Контур-Эльба",
+		"link": "https://e-kontur.ru/?p=45985112",
+		"desrciption": "3 месяца бесплатного обслуживания"
+	}
 	]
 
 }
